@@ -1,4 +1,4 @@
-FROM pavlobilyak/chrome-node:110
+FROM pavlobilyak/chrome-node:116
 
 WORKDIR /app
 COPY package.json pnpm-lock.yaml ./
